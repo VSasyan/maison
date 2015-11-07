@@ -108,7 +108,7 @@ class Position {
 
 		$html .= '<div id="energie">';
 			$html .= '<h2>Energie</h2>';
-			$html .= '<div id="shart"></div>';
+			$html .= '<div id="chart"></div>';
 		$html .= '</div>';
 
 		$data = array(
