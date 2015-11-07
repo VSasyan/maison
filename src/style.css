@@ -1,6 +1,9 @@
 html {
 	background-color: #EEE;
+	margin: 0;
 }
+
+body {margin: 0;}
 
 nav {
 	background-image: url('img/fond.jpg');
@@ -8,7 +11,8 @@ nav {
 	height: 350px;
 	margin: auto;
 	margin-bottom: 25px;
-	border-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 nav ul {
@@ -20,18 +24,25 @@ nav ul {
 }
 
 nav ul li {
-	background-color: rgba(0,0,0,0.2);
 	display: inline-block;
 	border: 1px solid #000;
 	border-left: 0px;
-	padding: 12px;
-	color: #FFF;
 }
 
-nav ul li:hover {
-	cursor: pointer;
-	background-color: rgba(0,0,0,0.8);
+nav ul li a {
+	display: block;
+	background-color: rgba(255,255,255,.2);
+	padding: 12px;
+	color: #FFF;
+	text-decoration: none;
 }
+
+nav ul li a:hover, nav ul li a.selected {
+	cursor: pointer;
+	background-color: rgba(0,0,0,.5);
+}
+
+.i {font-style: italic;}
 
 nav ul li:first-child {
 	border-left: 1px solid #000;

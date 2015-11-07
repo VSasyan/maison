@@ -119,21 +119,25 @@ class Position {
 			$html .= '</center>';
 		$html .= '</div>';
 
+		$solaire = 15 + rand(0,35);
+		$eolien = 15 + rand(0,35);
+		$autre = rand(0, max(0, $solaire + $eolien));
+
 		$data = array(
 			array(
-				'value' => rand(3,8),
+				'value' => $solaire,
 				'color' => "#F7464A",
 				'highlight' => "#FF5A5E",
 				'label' => 'Solaire '
 			),
 			array(
-				'value' => rand(3,8),
+				'value' => $eolien,
 				'color' => "#46BFBD",
 				'highlight' => "#5AD3D1",
 				'label' => 'Eolien '
 			),
 			array(
-				'value' => rand(1,4),
+				'value' => $autre,
 				'color' => "#FDB45C",
 				'highlight' => "#FFC870",
 				'label' => 'Autre '
