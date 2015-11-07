@@ -33,13 +33,14 @@ function initialize() {
 		//Get the marker's location.
 		markerLocation();
 		//appel au php
+		$('#result').removeClass('no');
+		$('#ajax').html('<center><img src="img/ajax-loader.gif"/></center>');
 
 		$.ajax({
 			url: "position.json.php?lat="+lat+"&lon="+lng,
 			success: function (resp) {
 				data_response = JSON.parse(resp);
 				console.log(data_response.data);
-				$('#result').removeClass('no');
 				$('#ajax').html(data_response.html);
 				var ctx = $('#myChart').get(0).getContext("2d");
 				var myDoughnutChart = new Chart(ctx).Doughnut(data_response.data, {
