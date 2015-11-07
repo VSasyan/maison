@@ -1,0 +1,19 @@
+html {
+	background-color: #EEE;
+}
+
+section {
+	background-color: #FFF;
+	width: 800px;
+	border-radius: 5px;
+	margin: auto;
+	padding: 40px;
+}
+
+* {font-family: 'Roboto', sans-serif;}
+#map-canvas {height: 600px; width:90%; margin: auto;}
+#result.no {display: none;}
+ul.doughnut-legend  {list-style-type:none;}
+ul.doughnut-legend span {display: inline-block; width: 15px; height: 15px; border: 1px solid #000; border-radius: 2px; margin-right: 3px;}
+
+canvas {margin: auto;}

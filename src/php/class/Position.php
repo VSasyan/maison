@@ -95,8 +95,8 @@ class Position {
 		return json_encode($json);
 	}
 	public function getInfo() {
-		$surfaceConseillee = EAU_PAR_PERSONNE_PAR_MOIS / $this->min * 1000;
-		$surfaceMinimale = EAU_PAR_PERSONNE_PAR_MOIS / $this->moy * 1000;
+		$surfaceConseillee = ceil(EAU_PAR_PERSONNE_PAR_MOIS / $this->min * 1000);
+		$surfaceMinimale = ceil(EAU_PAR_PERSONNE_PAR_MOIS / $this->moy * 1000);
 
 		$html = '';
 
@@ -109,12 +109,28 @@ class Position {
 		$html .= '<div id="energie">';
 			$html .= '<h2>Energie</h2>';
 			$html .= '<div id="chart"></div>';
+			$html .= '<canvas id="myChart" width="400" height="400"></canvas>';
 		$html .= '</div>';
 
 		$data = array(
-			array('Solaire', rand(3,8)),
-			array('Eolien', rand(3,8)),
-			array('Autre', rand(0,3)),
+			array(
+				'value' => rand(3,8),
+				'color' => "#F7464A",
+				'highlight' => "#FF5A5E",
+				'label' => 'Solaire'
+			),
+			array(
+				'value' => rand(3,8),
+				'color' => "#46BFBD",
+				'highlight' => "#5AD3D1",
+				'label' => 'Eolien'
+			),
+			array(
+				'value' => rand(1,4),
+				'color' => "#FDB45C",
+				'highlight' => "#FFC870",
+				'label' => 'Autre'
+			)
 		);
 
 		return array('html' => $html, 'data' => $data);
