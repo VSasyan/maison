@@ -102,14 +102,21 @@ class Position {
 
 		$html .= '<div id="eau">';
 			$html .= '<h2>Eau</h2>';
-			$html .= '<p>Surface minimale par personne : ' . $surfaceMinimale . ' m<sup>2</sup></p>';
-			$html .= '<p>Surface conseillée par personne : ' . $surfaceConseillee . ' m<sup>2</sup></p>';
+			$html .= '<p>Nous avons calculé les surfaces nécessaires pour être autonome en eau :</p>';
+			$html .= '<ul>';
+				$html .= '<li>Surface minimale : ' . $surfaceMinimale . ' m<sup>2</sup> par personne</li>';
+				$html .= '<li>Surface conseillée : ' . $surfaceConseillee . ' m<sup>2</sup> par personne</li>';
+			$html .= '</ul>';
 		$html .= '</div>';
 
 		$html .= '<div id="energie">';
 			$html .= '<h2>Energie</h2>';
-			$html .= '<div id="chart"></div>';
-			$html .= '<canvas id="myChart" width="400" height="400"></canvas>';
+			$html .= '<center>';
+				$html .= '<div id="chart">';
+					$html .= '<canvas id="myChart" width="400" height="400"></canvas>';
+					$html .= '<div id="legende"></div>';
+				$html .= '</div>';
+			$html .= '</center>';
 		$html .= '</div>';
 
 		$data = array(
@@ -117,19 +124,19 @@ class Position {
 				'value' => rand(3,8),
 				'color' => "#F7464A",
 				'highlight' => "#FF5A5E",
-				'label' => 'Solaire'
+				'label' => 'Solaire '
 			),
 			array(
 				'value' => rand(3,8),
 				'color' => "#46BFBD",
 				'highlight' => "#5AD3D1",
-				'label' => 'Eolien'
+				'label' => 'Eolien '
 			),
 			array(
 				'value' => rand(1,4),
 				'color' => "#FDB45C",
 				'highlight' => "#FFC870",
-				'label' => 'Autre'
+				'label' => 'Autre '
 			)
 		);
 
