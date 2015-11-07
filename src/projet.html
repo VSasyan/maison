@@ -6,14 +6,21 @@
 		<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,700,300,600' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="style.css">
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
-		<script type="text/javascript" src="js/Chart.Core.js"></script>
-		<script type="text/javascript" src="js/Chart.Doughnut.js"></script>
-		<script type="text/javascript" src="calculator.js"></script>
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#button').click(function(){
+					$(this).fadeOut();
+					$('#participation').fadeIn();
+					
+				})
+			})
+		</script>
+		
+		
 	</head>
 
-	<body onload="initialize()">
+	<body>
 		<nav>
 			<ul><li><a>Accueil</a></li><li><a class="selected" href="projet.html">Les Projets</a></li><li><a>L'Accompagnement</a></li><li><a href="index.html">Simulateur</a></li></ul>
 		</nav>
@@ -28,9 +35,60 @@
 				<img src="img/logo_red.png" class="red"/>
 				<img src="img/logo.png" class="black"/>
 			</div>
+			<button id="button">Intéressé?</button>
+			<div id="participation" style="display:none;">
+				<h2>Participer au projet</h2>
+				<form method="post" action="ex6.php"  name="formsaisi" > 
 
-			<h2>Participer au projet</h2>
-			<div id="participation">
+				<fieldset>
+				<legend> Informations personnelles </legend>
+
+					<label class="lbl-formulaire" > Nom <label/>
+					<input type="text"  id="nom" />
+					<br>
+					<label class="lbl-formulaire" for="Prénom"> Prénom <label/>
+					<input type="text"  id="prenom"/>
+					<br>
+					<label class="lbl-formulaire" > email <label/>
+					<input type="text"  id="email" />
+					<br>
+					<label class="lbl-formulaire" > téléphone <label/>
+					<input type="text"  id="telephone"/>
+					<br>
+					<br>
+					<label class="lbl-formulaire" > Adresse <label/>
+					<input type="text"  id="adresse"/>
+					<label class="lbl-formulaire" > Code postal <label/>
+					<input type="text"  id="code_postal"/>
+					<br>
+					<label class="lbl-formulaire" > Ville <label/>
+					<input type="text"  id="code_postal"/>
+					<br>
+			
+				</fieldset>
+				
+				<fieldset>
+				<legend> Informations relatives au projet </legend>
+				
+				<label class="lbl-formulaire" > Vous souhaitez un quartier : <label/>
+				<INPUT type= "radio" id="autonome" value="jour"> Totalement autonome
+				<INPUT type= "radio" id="semiautonome" value="nuit"> Semi autonome
+				<br>
+				<label class="lbl-formulaire" > idéalement, votre éco-quartier sera dans la région : <label/>
+				<select id="mySelect">
+					<option>ile de France</option>
+  
+				</select>
+				</fieldset>
+				
+		
+			
+			<input type="submit" value="envoyer" action="none" />
+			
+	
+	
+				</form>
+			
 			</div>
 
 		</section>

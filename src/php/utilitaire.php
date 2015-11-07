@@ -11,6 +11,6 @@ function __autoload($class_name) {
     include 'php/class/' . $class_name . '.php';
 }
 
-define('EAU_PAR_PERSONNE_PAR_MOIS', 3);
+define('EAU_PAR_PERSONNE_PAR_MOIS', 1);
 
 ?>
