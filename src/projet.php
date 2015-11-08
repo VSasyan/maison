@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Projets – District+</title>
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" charset="UTF-8"/>
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,700,300,600' rel='stylesheet' type='text/css'>
@@ -39,7 +40,7 @@
 		</nav>
 		<section>
 
-			<h1 class="i">« Le Quartier des 4 Saisons »</h1>
+			<h1 class="i">District+ - « Le Quartier des 4 Saisons »</h1>
 
 			<p>L’écoquartier  « Les Quatres Saisons » est un quartier urbain à caractéristiques écologiques modernes. Il concilie autant que possible les différents enjeux environnementaux dans le but de réduire l'impact du bâti sur la nature.</p>
 			<p>L’écoquartier est non seulement une forme d’urbanisme qui réduit votre consommation en énergie est en eau mais c’est aussi un cadre de vie agréable qui puise toute sa force de concepts innovants de mutualisation, d’économie collaborative solidaire  et de partage.</p>
