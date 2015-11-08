@@ -1,7 +1,5 @@
 <?php
 
-include('php/mdpDB.php');
-
 try {
 	$bdd = new PDO(host, user, mdp, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 } catch(Exception $e) {

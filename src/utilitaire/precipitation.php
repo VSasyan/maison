@@ -1,6 +1,8 @@
 <?php
 
-	$bdd = new PDO('mysql:host=localhost;dbname=maison', 'root', '');
+	include('../php/mdpDB.php');
+
+	include('../php/utilitaire.php');
 	
 	$monfichier = fopen('precipitations.csv', 'r');
 

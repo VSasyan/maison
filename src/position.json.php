@@ -1,5 +1,7 @@
 <?php
 
+	include('php/mdpDB.php');
+
 	include('php/utilitaire.php');
 
 	if(isset($_GET['lat'], $_GET['lon'])) {
