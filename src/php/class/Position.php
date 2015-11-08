@@ -101,7 +101,7 @@ class Position {
 		$html = '';
 
 		$html .= '<div id="eau">';
-			$html .= '<h2>Eau</h2>';
+			$html .= '<h3>Eau</h3>';
 			$html .= '<p>Nous avons calculé les surfaces nécessaires pour être autonome en eau :</p>';
 			$html .= '<ul>';
 				$html .= '<li>Surface minimale : ' . $surfaceMinimale . ' m<sup>2</sup> par personne</li>';
@@ -110,7 +110,7 @@ class Position {
 		$html .= '</div>';
 
 		$html .= '<div id="energie">';
-			$html .= '<h2>Energie</h2>';
+			$html .= '<h3>Energie</h3>';
 			$html .= '<center>';
 				$html .= '<div id="chart">';
 					$html .= '<canvas id="myChart" width="400" height="400"></canvas>';
