@@ -42,7 +42,7 @@
 		</nav>
 		<section>
 
-			<h1><span class="i">« Le Quartier des Quatre Saisons »</span> – District+</h1>
+			<h1><span class="i">« Le Quartier des Quatre Saisons »</span> , District+</h1>
 
 			<p>District+ présente <span class="i b">« Les Quatre Saisons »</span> : un quartier intelligent auto-suffisant en énergie et en eau. Il est basé sur des principes tels que l’autonomie des ressources, le respect de l’environnement, le partage et la solidarité.</p>
 			<p>L’objectif de District+ est de créer un cadre de vie innovant, par la mise en place d’un réseau d’éco-quartiers interconnectés.</p>

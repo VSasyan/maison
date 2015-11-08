@@ -30,7 +30,9 @@
 		</nav>
 		<section>
 			<div id="selector">
-				<h1> Veuillez sélectionner votre région</h1>
+				<h1> Générez un premier rapport d'implémentation d'écoquartier en un clic ! </h1>
+				<p> Pour avoir une visibilité sur les technologies à déployer pour rendre votre quartier autonome en énergie et en eau, nous vous proposons une simulation basée sur la position potentielle du futur écoquartier. </p>
+				<h1> Veuillez sélectionner une position</h1>
 				<div id="map-canvas"></div>
 			</div>
 			<div id="result" class="no" >

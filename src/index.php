@@ -48,7 +48,7 @@
 					</li>
 					<li class="s3sliderImage">
 						<img src="img/img_slider/vue02.png">
-						<span>Solidarité</span>
+						<span>Engagement</span>
 					</li>
 					<li class="s3sliderImage">
 						<img src="img/img_slider/vue03.png">
