@@ -16,9 +16,14 @@
 
 	<body onload="initialize()">
 		<nav>
-			<ul class="double"><li><a>Accueil</a></li><li><a href="projet.html">Les Projets</a></li><li><a>L'Accompagnement</a></li><li><a class="selected" href="index.html">Simulateur</a></li></ul>
-			<ul class="premier"><li><a>Accueil</a></li><li><a href="projet.html">Les Projets</a></li><li><a>L'Accompagnement</a></li><li><a class="selected" href="index.html">Simulateur</a></li></ul>
-			<div id="banner"></div>
+			<?php
+				$accueil = '';
+				$projet = '';
+				$simulateur = '';
+
+				$simulateur = 'selected';
+				include('php/menu.php');
+			?>
 		</nav>
 		<section>
 			<div id="selector">
