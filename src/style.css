@@ -276,3 +276,20 @@ input[type=submit], input[type=reset] {
 .clear {
     clear: both;
 }
+
+.accueil {
+	text-align: center;
+}
+
+.accueil>div.cel {
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.accueil>div.cel:last-child {
+	margin-right: 0px;
+}
+
+.accueil button {
+	width: 170px;
+}

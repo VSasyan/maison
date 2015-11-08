@@ -41,7 +41,7 @@
 		</nav>
 		<section>
 
-			<h1 class="i">District+ - « Le Quartier des 4 Saisons »</h1>
+			<h1>District+ – <span class="i">« Le Quartier des 4 Saisons »</span></h1>
 
 			<p>L’écoquartier <span class="i b">« Les Quatres Saisons »</span> est un quartier urbain aux caractéristiques écologiques modernes. Il concilie autant que possible les différents enjeux environnementaux dans le but de réduire l'impact du bâti sur la nature.</p>
 			<p>L’écoquartier est non seulement une forme d’urbanisme qui réduit votre consommation en énergie et en eau mais c’est aussi un cadre de vie agréable qui puise toute sa force de concepts innovants de mutualisation, d’économie collaborative solidaire et de partage.</p>
