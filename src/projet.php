@@ -41,7 +41,8 @@
 
 			<h1 class="i">« Le Quartier des 4 Saisons »</h1>
 
-			<p>Bla bla le projet</p>
+			<p>L’écoquartier  « Les Quatres Saisons » est un quartier urbain à caractéristiques écologiques modernes. Il concilie autant que possible les différents enjeux environnementaux dans le but de réduire l'impact du bâti sur la nature.</p>
+			<p>L’écoquartier est non seulement une forme d’urbanisme qui réduit votre consommation en énergie est en eau mais c’est aussi un cadre de vie agréable qui puise toute sa force de concepts innovants de mutualisation, d’économie collaborative solidaire  et de partage.</p>
 
 			<h2>Visite virtuelle</h2>
 			<div id="visite">
