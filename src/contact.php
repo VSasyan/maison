@@ -5,11 +5,11 @@ $eleves = array(
 	array('Sasyan', 'Valentin', 'img/perso/valentin.jpg', 'LinkedIn', 'https://www.linkedin.com/in/vsasyan', 'Étudiant à l\'Ecole des Siences Géographiques, Valentin Sasyan est spécialisé en Technique des Systèmes d\'Information.'),
 	array('Eljabiri', 'Hanane', 'img/perso/hanane.jpg', 'LinkedIn', 'https://www.linkedin.com/in/hananeeljabiri', "Élève ingénieur à l'Ecole Nationale des Sciences Géographiques, Filière : Architecture des Systèmes de l'Information Géographique."),
 	array('Mohamed Cassim', 'Adam', 'img/perso/adam.jpg', 'LinkedIn', 'https://fr.linkedin.com/pub/mohamed-cassim-adam/109/9bb/4b0', "Étudiant en Master de droit mention Développement durable, management environnemental et géomatique à l'Université Panthéon Sorbonne"),
-	array('Mougammadoussane', 'Vincent', '', 'LinkedIn', '', ""),
-	array('Bruyat', 'Agathe', '', 'LinkedIn', '', "Après l'obtention d'un BTS MUC en 2014, j'ai suivi un double cursus : une classe préparatoire CPGE pour les BAC+2 (classe préparatoire ATS) et une licence 3 Economique et Sociale option RH à l'université Panthéon-Sorbonne. Depuis Septembre 2015 je suis étudiante en Master 1 à Novancia Business School (majeure entreprendriat)."),
+	array('Mougammadoussane', 'Vincent', '', 'LinkedIn', '', "'Etudiant en Master de droit mention Développement durable, management environnemental et géomatique à l'Université Panthéon Sorbonne."),
+	array('Bruyat', 'Agathe', '', '<img src="img/perso/mail_agathe.png" class="mail"/>', '', "Après l'obtention d'un BTS MUC en 2014, j'ai suivi un double cursus : une classe préparatoire CPGE pour les BAC+2 (classe préparatoire ATS) et une licence 3 Economique et Sociale option RH à l'université Panthéon-Sorbonne. Depuis Septembre 2015 je suis étudiante en Master 1 à Novancia Business School (majeure entreprendriat)."),
 	array('Briend', 'Mathilde', 'img/perso/mathilde.jpg', 'LinkedIn', 'https://fr.linkedin.com/pub/mathilde-briend/92/152/bb9', "'A la suite d'un BTS communication, Mathilde a intégré le bachelor de Novancia Business School et suit ce cursus en apprentissage."),
-	array('Rolland', 'Donatien', '', 'LinkedIn', '', ""),
-	array('Gansonré', 'Ahmed', '', 'LinkedIn', '', "")
+	array('Rolland', 'Donatien', '', '<img src="img/perso/mail_donatien.png" class="mail"/>', '', "Étudiant en Master 1 à Novancia Business School Paris"),
+	array('Gansonré', 'Ahmed', '', '<img src="img/perso/mail_ahmed.png" class="mail"/>', '', "A la suite d'une Licence Professionnelle en Génie GAZ-PÉTROLE-ENERGIE, je suis actuellement étudiant futur manager de NOVANCIA BUSINESS SCHOOL PARIS en vu d'un diplôme de BUSINESS DEVELOPPER spécialisé dans le développement commercial et achat.")
 );
 
 ?>
@@ -55,10 +55,10 @@ $eleves = array(
 					if ($type == 'd') {$type = 'g';} else {$type = 'd';}
 					$html .= '<div class="perso ' . $type . '">';
 						$html .= '<h3>' . $eleve[1] . ' ' . $eleve[0] . '</h3>';
-						if ($eleve[2] != '') {$html .= '<img src="' . $eleve[2] . '">';}
+						if ($eleve[2] != '') {$html .= '<img src="' . $eleve[2] . '" class="photo">';}
 						$html .= '<div class="info">';
 							$html .= '<p class="desc">' . $eleve[5] . '</p>';
-							if ($eleve[4] != '') {$html .= '<p class="contact"><a href="' . $eleve[4] . '" target="_blank">' . $eleve[3] . '</a></p>';}
+							if ($eleve[4] != '') {$html .= '<p class="contact"><a href="' . $eleve[4] . '" target="_blank">' . $eleve[3] . '</a></p>';} else {$html .= '<p class="contact">' . $eleve[3] . '</p>';}
 						$html .= '</div>';
 						$html .= '<div style="clear: both"></div>';
 					$html .= '</div>';

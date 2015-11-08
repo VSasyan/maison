@@ -321,7 +321,7 @@ input[type=submit], input[type=reset] {
 	margin-top: 0;
 }
 
-.perso img {
+.perso img.photo {
 	width: 75px;
 	height: 75px;
 	border-radius: 50%;
@@ -332,13 +332,18 @@ input[type=submit], input[type=reset] {
 	margin: 0;
 }
 
-.perso.g img {
+.perso.g img.photo {
 	float: left;
 	margin-right:15px; 
 }
-.perso.d img {
+.perso.d img.photo {
 	float: right;
 	margin-left:15px;
+}
+
+.perso .info .mail {
+	width: 400px;
+	height: 40px;
 }
 
 .perso .info .contact a {
