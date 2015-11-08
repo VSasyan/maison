@@ -1,7 +1,8 @@
 var marker = false; ////Has the user plotted their location marker? 
-var lat;
-var lng;
-var data;
+var ville = false;
+var data_response = false;
+var lat, lng;
+
 function initialize() {
 	var opts = {
 		center: new google.maps.LatLng(46.77863469527167, 2.53896484375),
@@ -33,6 +34,7 @@ function initialize() {
 		//Get the marker's location.
 		markerLocation();
 		//appel au php
+		$('#city').html('');
 		$('#result').removeClass('no');
 		$('#ajax').html('<center><img src="img/ajax-loader.gif"/></center>');
 
@@ -52,6 +54,26 @@ function initialize() {
 				}, 'slow');
 			}
 		});
+
+		// Géocodage :
+		geocoder.geocode({'location': {lat: lat, lng: lng}}, function (results, status) {
+			var temp = false;
+			main: for (var i = 0, l = results.length; i < l; i++) {
+				var res = results[i];
+				for (var j = 0, m = res.types.length; j < m; j++) {
+					var t = res.types[j];
+					if (t === 'locality' && res.address_components[0] && res.address_components[0].long_name) {
+						temp = res.address_components[0].long_name;
+						break main;
+					}
+				}
+			}
+			if (temp) {
+				$('#city').html(' – ' + temp);
+			} else {
+				$('#city').html('');
+			}
+		});
 	});
 
 }
@@ -59,7 +81,7 @@ function initialize() {
 //values to our textfields so that we can save the location.
 function markerLocation(){
 	//Get location.
-	var currentLocation = marker.getPosition();
+	currentLocation = marker.getPosition();
 	//Add lat and lng values to a field that we can save.
 	lat = currentLocation.lat(); //latitude
 	lng = currentLocation.lng(); //longitude
