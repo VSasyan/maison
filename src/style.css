@@ -293,3 +293,54 @@ input[type=submit], input[type=reset] {
 .accueil button {
 	width: 170px;
 }
+
+.perso {
+	clear: both;
+	width: 450px;
+	margin: auto;
+	margin-top: 45px;
+	background-color: rgba(0,69,36,0.7);
+	border: 1px solid #004524;
+	padding: 15px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.perso:hover {
+	background-color: rgba(0,69,36,0.6);
+}
+
+.perso h3 {
+	margin-top: 0;
+}
+
+.perso img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid #004524;
+}
+
+.perso .info p {
+	margin: 0;
+}
+
+.perso.g img {
+	float: left;
+	margin-right:15px; 
+}
+.perso.d img {
+	float: right;
+	margin-left:15px;
+}
+
+.perso .info .contact a {
+	color: #000;
+}
+
+.perso.g .info .contact {
+	float: right;
+}
+.perso.d .info .contact {
+	float: left;
+}

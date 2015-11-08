@@ -22,6 +22,7 @@
 				$accueil = '';
 				$projet = '';
 				$simulateur = '';
+				$contact = '';
 
 				$simulateur = 'selected';
 				include('php/menu.php');

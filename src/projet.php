@@ -34,6 +34,7 @@
 				$accueil = '';
 				$projet = '';
 				$simulateur = '';
+				$contact = '';
 
 				$projet = 'selected';
 				include('php/menu.php');
@@ -41,10 +42,10 @@
 		</nav>
 		<section>
 
-			<h1>District+ – <span class="i">« Le Quartier des 4 Saisons »</span></h1>
+			<h1><span class="i">« Le Quartier des Quatre Saisons »</span> – District+</h1>
 
-			<p>L’écoquartier <span class="i b">« Les Quatres Saisons »</span> est un quartier urbain aux caractéristiques écologiques modernes. Il concilie autant que possible les différents enjeux environnementaux dans le but de réduire l'impact du bâti sur la nature.</p>
-			<p>L’écoquartier est non seulement une forme d’urbanisme qui réduit votre consommation en énergie et en eau mais c’est aussi un cadre de vie agréable qui puise toute sa force de concepts innovants de mutualisation, d’économie collaborative solidaire et de partage.</p>
+			<p>District+ présente <span class="i b">« Les Quatre Saisons »</span> : un quartier intelligent auto-suffisant en énergie et en eau. Il est basé sur des principes tels que l’autonomie des ressources, le respect de l’environnement, le partage et la solidarité.</p>
+			<p>L’objectif de District+ est de créer un cadre de vie innovant, par la mise en place d’un réseau d’éco-quartiers interconnectés.</p>
 
 			<h2>Visite virtuelle</h2>
 			<div id="visite">
