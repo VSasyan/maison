@@ -63,7 +63,7 @@
 					<button class="btn" id="visiteur">Visiteur</button>
 				</div>
 				<div class="cel"> 
-					<button class="btn" id="adherent">Écopote</button>
+					<button class="btn" id="adherent" title="Pas encore disponible...">Écopote</button>
 				</div>
 				<div class="cel"> 
 					<button class="btn" id="professionnel">Professionnel</button>

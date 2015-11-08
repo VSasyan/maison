@@ -356,3 +356,6 @@ input[type=submit], input[type=reset] {
 .perso.d .info .contact {
 	float: left;
 }
+#adherent {
+	cursor: not-allowed;
+}

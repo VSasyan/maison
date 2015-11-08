@@ -1,7 +1,7 @@
 <?php
 	$menu = '';
 	$menu .= '<li><a class="' . $accueil . '" href="index.php">Accueil</a></li>';
-	$menu .= '<li><a title="Qui sommes nous ?">L\'accompagnement</a></li>';
+	$menu .= '<li><a href="contact.php">L\'accompagnement</a></li>';
 	$menu .= '<li><a class="' . $projet . '" href="projet.php">Les projets</a></li>';
 	$menu .= '<li><a class="' . $simulateur . '" href="simulateur.php">Simulateur</a></li>';
 	$menu .= '<li><a class="' . $contact . '" href="contact.php">Contacts</a></li>';
