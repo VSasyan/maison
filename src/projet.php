@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Projets – District+</title>
+		<link rel="icon" type="image/png" href="img/icon.png" />
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" charset="UTF-8"/>
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,700,300,600' rel='stylesheet' type='text/css'>
