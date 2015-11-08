@@ -16,6 +16,12 @@
 				$('#s3slider').s3Slider({
 					timeOut: 4000
 				});
+				$('#visiteur').click(function(){
+					window.location.href="projet.php";
+				});
+				$('#professionnel').click(function(){
+					window.location.href="simulateur.php";
+				});
 			})
 		</script>
 	</head>
@@ -36,31 +42,31 @@
 		<section>
 			<div id="s3slider">
 				<ul id="s3sliderContent">
-				<li class="s3sliderImage">
-				<img src="img/video.png">
-				<span>Innovation</span>
-				</li>
-				<li class="s3sliderImage">
-				<img src="img/groupe.jpg">
-				<span>Solidarité</span>
-				</li>
-				<li class="s3sliderImage">
-				<img src="img/video.png">
-				<span>Développement durable</span>
-				</li>
-				<div class="clear s3sliderImage"></div>
+					<li class="s3sliderImage">
+						<img src="img/img_slider/vue01.png">
+						<span>Innovation</span>
+					</li>
+					<li class="s3sliderImage">
+						<img src="img/img_slider/vue02.png">
+						<span>Solidarité</span>
+					</li>
+					<li class="s3sliderImage">
+						<img src="img/img_slider/vue03.png">
+						<span>Développement durable</span>
+					</li>
+					<div class="clear s3sliderImage"></div>
 				</ul>
 			</div>
 			
 			<div class="boutton accueil">
-				<div class="cel"> 
-					<button class="btn">Visiteur</button>
+				<div class="cel">
+					<button class="btn" id="visiteur">Visiteur</button>
 				</div>
 				<div class="cel"> 
-					<button class="btn">Adhérent</button>
+					<button class="btn" id="adherent">Adhérent</button>
 				</div>
 				<div class="cel"> 
-					<button class="btn">Professionnel</button>
+					<button class="btn" id="professionnel">Professionnel</button>
 				</div>
 			</div>
 		</section>
