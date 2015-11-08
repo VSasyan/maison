@@ -1,7 +1,9 @@
 <?php
 
+include('php/mdpDB.php');
+
 try {
-	$bdd = new PDO('mysql:host=localhost;dbname=maison', 'root', '', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+	$bdd = new PDO(host, user, mdp, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 } catch(Exception $e) {
 	echo 'Echec de la connexion à la base de données';
 	exit();
