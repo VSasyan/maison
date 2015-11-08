@@ -8,10 +8,12 @@
 		<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,700,300,600' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="leaflet.css">
     	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_aJha7D3ZAP3tHbdxGGy1m6gNgURs7Zs"></script>
 		<script type="text/javascript" src="js/Chart.Core.js"></script>
 		<script type="text/javascript" src="js/Chart.Doughnut.js"></script>
-		<script type="text/javascript" src="calculator.js"></script>
+		<script type="text/javascript" src="calculator2.js"></script>
+		<script type="text/javascript" src="leaflet.js"></script>
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 		<script type="text/javascript" src="js/menu.js"></script>
 	</head>
