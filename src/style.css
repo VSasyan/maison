@@ -359,3 +359,13 @@ input[type=submit], input[type=reset] {
 #adherent {
 	cursor: not-allowed;
 }
+#particuliers, #ccp {
+    width:300px;
+    height:210px;
+    border:1px solid #004524;
+    margin-right:10px;
+    float:left;
+}
+#particuliers h3, #ccp h3{
+color:#004524;
+}

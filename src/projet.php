@@ -35,6 +35,7 @@
 				$projet = '';
 				$simulateur = '';
 				$contact = '';
+				$accompagnement = '';
 
 				$projet = 'selected';
 				include('php/menu.php');
@@ -59,6 +60,22 @@
 
 			<div id="participation" style="height:0px;" class="expand">
 				<h2>Participer au projet</h2>
+				<center>
+
+				<div id="particuliers">
+					<center>
+					<h3> Particuliers </h3>
+					<p class="desc"> Inscrivez-vous, invitez vos amis et voisins, et montrez l’intérêt de votre commune pour la construction d’un écoquartier District+. À partir d’un certain nombre de personnes mobilisées, nous établirons un contact avec les différentes organisations pour leur soumettre le projet. </p>
+					</center>
+				</div>
+				<div id="ccp">
+					<center>
+					<h3> Collectivités, communes, promoteurs </h3>
+					<p class="desc">  Demandez un rendez-vous, posez-nous toutes vos questions. </p>
+					</center>
+				</div>
+				
+				</center>
 
 				<form method="post" action="ex6.php" name="formsaisi" > 
 

@@ -33,6 +33,7 @@
 				$projet = '';
 				$simulateur = '';
 				$contact = '';
+				$accompagnement = '';
 
 				$accueil = 'selected';
 				include('php/menu.php');
