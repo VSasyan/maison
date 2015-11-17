@@ -359,12 +359,21 @@ input[type=submit], input[type=reset] {
 #adherent {
 	cursor: not-allowed;
 }
-#particuliers, #ccp {
+
+#parti_ccp {
+	margin-bottom: 20px;
+}
+
+#parti_ccp div {
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px;
     width:300px;
     height:210px;
     border:1px solid #004524;
-    margin-right:10px;
-    float:left;
+}
+#particuliers {
+    margin-right:20px;
 }
 #particuliers h3, #ccp h3{
 color:#004524;

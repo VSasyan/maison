@@ -60,7 +60,7 @@
 
 			<div id="participation" style="height:0px;" class="expand">
 				<h2>Participer au projet</h2>
-				<center>
+				<center id="parti_ccp">
 
 				<div id="particuliers">
 					<center>
