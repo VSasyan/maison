@@ -21,13 +21,16 @@
 	<body onload="initialize()">
 		<nav>
 			<?php
+					
 				$accueil = '';
 				$projet = '';
 				$simulateur = '';
 				$contact = '';
+				$accompagnement = '';
 
 				$simulateur = 'selected';
 				include('php/menu.php');
+			
 			?>
 		</nav>
 		<section>

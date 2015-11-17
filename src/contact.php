@@ -41,6 +41,7 @@ $eleves = array(
 				$projet = '';
 				$simulateur = '';
 				$contact = '';
+				$accompagnement = '';
 
 				$contact = 'selected';
 				include('php/menu.php');
